@@ -172,3 +172,37 @@ Percentage=  85.0 %
 ## 12. `Day_03_Total_marks_Percentage.py`
 
 Appears to be an unfinished draft of a total-marks/percentage calculator. Currently contains a single, incomplete line.
+
+
+# Day 04 – Python Practice: Nested Loops, Step Ranges & Conditionals
+
+A set of beginner-level Python scripts exploring nested `for` loops, the step parameter of `range()`, odd-number filtering, and simple conditional password validation.
+
+## 📁 Files in this Set
+
+| File | Topic | Status |
+| `Day_04_NumberPyramid.py` | Number Pyramid (Nested Loop) | 
+| `Day_04_OnlyOdd1-10.py` | Odd Numbers 1 → 10 (step range) | ✅ Working |
+| `Day_04_OnlyOdd10-1.py` | Odd Numbers 10 → 1 (reverse + modulo) | ✅ Working |
+| `Day_04_RealOrFakePassword.py` | Password Validator | ✅ Working |
+
+## 1. `Day_04_NumberPyramid.py`
+
+Intended to print a number pyramid using a nested `for` loop, where each row prints an increasing count of numbers (e.g., `1`, `1 2`, `1 2 3`, ...).
+
+
+## 2. `Day_04_OnlyOdd1-10.py`
+
+Prints odd numbers from 1 to 10 in ascending order, using the step parameter of `range()` to jump by 2 starting from 1.
+
+
+## 3. `Day_04_OnlyOdd10-1.py`
+
+Prints odd numbers from 10 down to 1 in descending order, by iterating backward through every number and filtering with the modulo operator.
+
+
+## 4. `Day_04_RealOrFakePassword.py`
+
+A simple password validator that compares user input against a hardcoded password string.
+
+
